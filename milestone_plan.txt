@@ -1,0 +1,8 @@
+We want to have a lot of progress. 
+If we work together, this isn't gonna happen. 
+Let's split up and work on separate objectives and then come together to write the milestone paper.
+
+John & Brian: Process Data as much as we can
+Azure: Figure out how to get Diffusion-LM running
+
+Goal: Get this done on Monday and see where we can go from there.
