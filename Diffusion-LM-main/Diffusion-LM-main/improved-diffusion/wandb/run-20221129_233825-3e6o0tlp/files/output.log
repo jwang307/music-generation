@@ -1,0 +1,34 @@
+load data **************************************************
+hello loading text data.
+hello loading e2e-tgt.
+loading dataset from simple e2e dataset
+loading form the TRAIN set
+[['The', 'Vaults', 'pub', 'near', 'CafÃ', '©', 'Adriatic', 'has', 'a', '5', 'star', 'rating', '.', 'Prices', 'start', 'at', 'Â£', '30', '.', '\n'], ['Close', 'to', 'CafÃ', '©', 'Brazil', ',', 'The', 'Cambridge', 'Blue', 'pub', 'serves', 'delicious', 'Tuscan', 'Beef', 'for', 'the', 'cheap', 'price', 'of', 'Â£', '10.50', '.', 'Delicious', 'Pub', 'food', '.', '\n']]
+2975 822
+save the vocab to diffusion_models/diff_e2e-tgt_block_rand16_transformer_lr0.0001_0.0_2000_sqrt_Lsimple_h128_s2_d0.1_sd102_xstart_e2e/vocab.json
+initializing the random embeddings Embedding(822, 16)
+save the random encoder to diffusion_models/diff_e2e-tgt_block_rand16_transformer_lr0.0001_0.0_2000_sqrt_Lsimple_h128_s2_d0.1_sd102_xstart_e2e/random_emb.torch
+[[0, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 16, 22, 1], [0, 23, 24, 8, 9, 25, 26, 4, 27, 28, 6, 29, 30, 2, 2, 31, 32, 33, 34, 35, 20, 2, 16, 2, 36, 37, 16, 22, 1]]
+padding mode is block
+8
+loading from diffusion_models/diff_e2e-tgt_block_rand16_transformer_lr0.0001_0.0_2000_sqrt_Lsimple_h128_s2_d0.1_sd102_xstart_e2e/vocab.json
+822
+loading from diffusion_models/diff_e2e-tgt_block_rand16_transformer_lr0.0001_0.0_2000_sqrt_Lsimple_h128_s2_d0.1_sd102_xstart_e2e/vocab.json
+822
+Embedding(822, 16) False
+Traceback (most recent call last):
+  File "C:\Users\ybria\Documents\GitHub\music-generation\Diffusion-LM-main\Diffusion-LM-main\improved-diffusion\scripts\train.py", line 208, in <module>
+    main()
+  File "C:\Users\ybria\Documents\GitHub\music-generation\Diffusion-LM-main\Diffusion-LM-main\improved-diffusion\scripts\train.py", line 140, in main
+    get_mapping_func(args, diffusion, data)
+  File "C:\Users\ybria\Documents\GitHub\music-generation\Diffusion-LM-main\Diffusion-LM-main\improved-diffusion\scripts\train.py", line 136, in get_mapping_func
+    mapping_func = partial(compute_logp, args, model3.cuda())
+  File "C:\Users\ybria\anaconda3\envs\MusicGeneration\lib\site-packages\torch\nn\modules\module.py", line 689, in cuda
+    return self._apply(lambda t: t.cuda(device))
+  File "C:\Users\ybria\anaconda3\envs\MusicGeneration\lib\site-packages\torch\nn\modules\module.py", line 602, in _apply
+    param_applied = fn(param)
+  File "C:\Users\ybria\anaconda3\envs\MusicGeneration\lib\site-packages\torch\nn\modules\module.py", line 689, in <lambda>
+    return self._apply(lambda t: t.cuda(device))
+  File "C:\Users\ybria\anaconda3\envs\MusicGeneration\lib\site-packages\torch\cuda\__init__.py", line 211, in _lazy_init
+    raise AssertionError("Torch not compiled with CUDA enabled")
+AssertionError: Torch not compiled with CUDA enabled

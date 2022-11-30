@@ -1,0 +1,38 @@
+load data **************************************************
+hello loading text data.
+hello loading e2e-tgt.
+loading dataset from simple e2e dataset
+loading form the TRAIN set
+[['The', 'Vaults', 'pub', 'near', 'CafÃ', '©', 'Adriatic', 'has', 'a', '5', 'star', 'rating', '.', 'Prices', 'start', 'at', 'Â£', '30', '.', '\n'], ['Close', 'to', 'CafÃ', '©', 'Brazil', ',', 'The', 'Cambridge', 'Blue', 'pub', 'serves', 'delicious', 'Tuscan', 'Beef', 'for', 'the', 'cheap', 'price', 'of', 'Â£', '10.50', '.', 'Delicious', 'Pub', 'food', '.', '\n']]
+2975 822
+save the vocab to diffusion_models/diff_e2e-tgt_block_rand16_transformer_lr0.0001_0.0_2000_sqrt_Lsimple_h128_s2_d0.1_sd102_xstart_e2e/vocab.json
+initializing the random embeddings Embedding(822, 16)
+save the random encoder to diffusion_models/diff_e2e-tgt_block_rand16_transformer_lr0.0001_0.0_2000_sqrt_Lsimple_h128_s2_d0.1_sd102_xstart_e2e/random_emb.torch
+[[0, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 16, 22, 1], [0, 23, 24, 8, 9, 25, 26, 4, 27, 28, 6, 29, 30, 2, 2, 31, 32, 33, 34, 35, 20, 2, 16, 2, 36, 37, 16, 22, 1]]
+padding mode is block
+8
+loading from diffusion_models/diff_e2e-tgt_block_rand16_transformer_lr0.0001_0.0_2000_sqrt_Lsimple_h128_s2_d0.1_sd102_xstart_e2e/vocab.json
+822
+loading from diffusion_models/diff_e2e-tgt_block_rand16_transformer_lr0.0001_0.0_2000_sqrt_Lsimple_h128_s2_d0.1_sd102_xstart_e2e/vocab.json
+822
+Embedding(822, 16) False
+Traceback (most recent call last):
+  File "C:\Users\ybria\Documents\GitHub\music-generation\Diffusion-LM-main\Diffusion-LM-main\improved-diffusion\scripts\train.py", line 208, in <module>
+    main()
+  File "C:\Users\ybria\Documents\GitHub\music-generation\Diffusion-LM-main\Diffusion-LM-main\improved-diffusion\scripts\train.py", line 143, in main
+    TrainLoop(
+  File "c:\users\ybria\documents\github\music-generation\diffusion-lm-main\diffusion-lm-main\improved-diffusion\improved_diffusion\train_util.py", line 176, in run_loop
+    self.run_step(batch, cond)
+  File "c:\users\ybria\documents\github\music-generation\diffusion-lm-main\diffusion-lm-main\improved-diffusion\improved_diffusion\train_util.py", line 195, in run_step
+    self.forward_backward(batch, cond)
+  File "c:\users\ybria\documents\github\music-generation\diffusion-lm-main\diffusion-lm-main\improved-diffusion\improved_diffusion\train_util.py", line 253, in forward_backward
+    losses = compute_losses()
+  File "c:\users\ybria\documents\github\music-generation\diffusion-lm-main\diffusion-lm-main\improved-diffusion\improved_diffusion\respace.py", line 99, in training_losses
+    return super().training_losses(self._wrap_model(model), *args, **kwargs)
+  File "c:\users\ybria\documents\github\music-generation\diffusion-lm-main\diffusion-lm-main\improved-diffusion\improved_diffusion\gaussian_diffusion.py", line 240, in training_losses
+    return self.training_losses_e2e(model, *args, **kwargs)
+  File "c:\users\ybria\documents\github\music-generation\diffusion-lm-main\diffusion-lm-main\improved-diffusion\improved_diffusion\gaussian_diffusion.py", line 1470, in training_losses_e2e
+    x_start_mean = model.model.module.get_embeds(input_ids)
+  File "C:\Users\ybria\anaconda3\envs\MusicGeneration\lib\site-packages\torch\nn\modules\module.py", line 1207, in __getattr__
+    raise AttributeError("'{}' object has no attribute '{}'".format(
+AttributeError: 'TransformerNetModel2' object has no attribute 'module'

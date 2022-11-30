@@ -1,0 +1,181 @@
+2022-11-29 23:38:25,151 INFO    StreamThr :26204 [internal.py:wandb_internal():88] W&B internal server running at pid: 26204, started at: 2022-11-29 23:38:25.148357
+2022-11-29 23:38:25,153 DEBUG   HandlerThread:26204 [handler.py:handle_request():139] handle_request: status
+2022-11-29 23:38:25,157 DEBUG   SenderThread:26204 [sender.py:send_request():317] send_request: status
+2022-11-29 23:38:25,159 DEBUG   SenderThread:26204 [sender.py:send():303] send: header
+2022-11-29 23:38:25,159 INFO    WriterThread:26204 [datastore.py:open_for_write():75] open: C:\Users\ybria\Documents\GitHub\music-generation\Diffusion-LM-main\Diffusion-LM-main\improved-diffusion\wandb\run-20221129_233825-3e6o0tlp\run-3e6o0tlp.wandb
+2022-11-29 23:38:25,219 DEBUG   SenderThread:26204 [sender.py:send():303] send: run
+2022-11-29 23:38:25,485 DEBUG   HandlerThread:26204 [handler.py:handle_request():139] handle_request: check_version
+2022-11-29 23:38:25,499 INFO    SenderThread:26204 [dir_watcher.py:__init__():216] watching files in: C:\Users\ybria\Documents\GitHub\music-generation\Diffusion-LM-main\Diffusion-LM-main\improved-diffusion\wandb\run-20221129_233825-3e6o0tlp\files
+2022-11-29 23:38:25,499 INFO    SenderThread:26204 [sender.py:_start_run_threads():928] run started: 3e6o0tlp with start time 1669793905.14735
+2022-11-29 23:38:25,499 DEBUG   SenderThread:26204 [sender.py:send():303] send: summary
+2022-11-29 23:38:25,500 INFO    SenderThread:26204 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-29 23:38:25,501 DEBUG   SenderThread:26204 [sender.py:send_request():317] send_request: check_version
+2022-11-29 23:38:25,620 DEBUG   HandlerThread:26204 [handler.py:handle_request():139] handle_request: run_start
+2022-11-29 23:38:25,648 DEBUG   HandlerThread:26204 [system_info.py:__init__():31] System info init
+2022-11-29 23:38:25,649 DEBUG   HandlerThread:26204 [system_info.py:__init__():46] System info init done
+2022-11-29 23:38:25,649 INFO    HandlerThread:26204 [system_monitor.py:start():150] Starting system monitor
+2022-11-29 23:38:25,649 INFO    SystemMonitor:26204 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2022-11-29 23:38:25,650 INFO    HandlerThread:26204 [system_monitor.py:probe():168] Collecting system info
+2022-11-29 23:38:25,658 INFO    SystemMonitor:26204 [interfaces.py:start():168] Started cpu
+2022-11-29 23:38:25,665 DEBUG   HandlerThread:26204 [system_info.py:probe():195] Probing system
+2022-11-29 23:38:25,665 INFO    SystemMonitor:26204 [interfaces.py:start():168] Started disk
+2022-11-29 23:38:25,681 INFO    SystemMonitor:26204 [interfaces.py:start():168] Started memory
+2022-11-29 23:38:25,697 INFO    SystemMonitor:26204 [interfaces.py:start():168] Started network
+2022-11-29 23:38:25,715 DEBUG   HandlerThread:26204 [system_info.py:_probe_git():180] Probing git
+2022-11-29 23:38:25,870 DEBUG   HandlerThread:26204 [system_info.py:_probe_git():188] Probing git done
+2022-11-29 23:38:25,871 DEBUG   HandlerThread:26204 [system_info.py:probe():241] Probing system done
+2022-11-29 23:38:25,871 DEBUG   HandlerThread:26204 [system_monitor.py:probe():177] {'os': 'Windows-10-10.0.22000-SP0', 'python': '3.9.15', 'heartbeatAt': '2022-11-30T07:38:25.666961', 'startedAt': '2022-11-30T07:38:25.126406', 'docker': None, 'cuda': None, 'args': ('--checkpoint_path', 'diffusion_models/diff_e2e-tgt_block_rand16_transformer_lr0.0001_0.0_2000_sqrt_Lsimple_h128_s2_d0.1_sd102_xstart_e2e', '--model_arch', 'transformer', '--modality', 'e2e-tgt', '--save_interval', '50000', '--lr', '0.0001', '--batch_size', '64', '--diffusion_steps', '2000', '--noise_schedule', 'sqrt', '--use_kl', 'False', '--learn_sigma', 'False', '--image_size', '8', '--num_channels', '128', '--seed', '102', '--dropout', '0.1', '--in_channel', '16', '--out_channel', '16', '--padding_mode', 'block', '--experiment', 'random', '--lr_anneal_steps', '200000', '--weight_decay', '0.0', '--num_res_blocks', '2', '--predict_xstart', 'True', '--training_mode', 'e2e', '--vocab_size', '821', '--e2e_train', '../datasets/e2e_data'), 'state': 'running', 'program': 'C:\\Users\\ybria\\Documents\\GitHub\\music-generation\\Diffusion-LM-main\\Diffusion-LM-main\\improved-diffusion\\scripts\\train.py', 'codePath': 'Diffusion-LM-main\\Diffusion-LM-main\\improved-diffusion\\scripts\\train.py', 'git': {'remote': 'https://github.com/jwang307/music-generation.git', 'commit': 'd5113640a95386bb9f281d9a53f0d9ad5b6ae96d'}, 'email': '47718731+BriShoe@users.noreply.github.com', 'root': 'C:/Users/ybria/Documents/GitHub/music-generation', 'host': 'Brian-HP-Spectre-X360', 'username': 'ybria', 'executable': 'C:\\Users\\ybria\\anaconda3\\envs\\MusicGeneration\\python.exe', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 1792.0, 'min': 0.0, 'max': 1992.0}, 'cpu_freq_per_core': [{'current': 1792.0, 'min': 0.0, 'max': 1992.0}], 'disk': {'total': 464.72753524780273, 'used': 253.29392623901367}, 'memory': {'total': 15.849002838134766}}
+2022-11-29 23:38:25,871 INFO    HandlerThread:26204 [system_monitor.py:probe():178] Finished collecting system info
+2022-11-29 23:38:25,871 INFO    HandlerThread:26204 [system_monitor.py:probe():181] Publishing system info
+2022-11-29 23:38:25,871 DEBUG   HandlerThread:26204 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2022-11-29 23:38:25,873 DEBUG   HandlerThread:26204 [system_info.py:_save_pip():67] Saving pip packages done
+2022-11-29 23:38:25,873 DEBUG   HandlerThread:26204 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2022-11-29 23:38:26,510 INFO    Thread-17 :26204 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\ybria\Documents\GitHub\music-generation\Diffusion-LM-main\Diffusion-LM-main\improved-diffusion\wandb\run-20221129_233825-3e6o0tlp\files\conda-environment.yaml
+2022-11-29 23:38:26,511 INFO    Thread-17 :26204 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\ybria\Documents\GitHub\music-generation\Diffusion-LM-main\Diffusion-LM-main\improved-diffusion\wandb\run-20221129_233825-3e6o0tlp\files\wandb-summary.json
+2022-11-29 23:38:26,512 INFO    Thread-17 :26204 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\ybria\Documents\GitHub\music-generation\Diffusion-LM-main\Diffusion-LM-main\improved-diffusion\wandb\run-20221129_233825-3e6o0tlp\files\requirements.txt
+2022-11-29 23:38:31,077 DEBUG   HandlerThread:26204 [system_info.py:_save_conda():86] Saving conda packages done
+2022-11-29 23:38:31,078 INFO    HandlerThread:26204 [system_monitor.py:probe():183] Finished publishing system info
+2022-11-29 23:38:31,089 DEBUG   HandlerThread:26204 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-29 23:38:31,089 DEBUG   SenderThread:26204 [sender.py:send_request():317] send_request: stop_status
+2022-11-29 23:38:31,193 DEBUG   SenderThread:26204 [sender.py:send():303] send: telemetry
+2022-11-29 23:38:31,193 DEBUG   SenderThread:26204 [sender.py:send():303] send: config
+2022-11-29 23:38:31,195 DEBUG   SenderThread:26204 [sender.py:send():303] send: files
+2022-11-29 23:38:31,195 INFO    SenderThread:26204 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2022-11-29 23:38:31,552 INFO    Thread-17 :26204 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\ybria\Documents\GitHub\music-generation\Diffusion-LM-main\Diffusion-LM-main\improved-diffusion\wandb\run-20221129_233825-3e6o0tlp\files\conda-environment.yaml
+2022-11-29 23:38:31,552 INFO    Thread-17 :26204 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\ybria\Documents\GitHub\music-generation\Diffusion-LM-main\Diffusion-LM-main\improved-diffusion\wandb\run-20221129_233825-3e6o0tlp\files\wandb-metadata.json
+2022-11-29 23:38:31,553 INFO    Thread-17 :26204 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\ybria\Documents\GitHub\music-generation\Diffusion-LM-main\Diffusion-LM-main\improved-diffusion\wandb\run-20221129_233825-3e6o0tlp\files\output.log
+2022-11-29 23:38:31,630 INFO    Thread-22 :26204 [upload_job.py:push():143] Uploaded file C:\Users\ybria\AppData\Local\Temp\tmph7ch30elwandb\2h0azoo4-wandb-metadata.json
+2022-11-29 23:38:32,070 DEBUG   SenderThread:26204 [sender.py:send():303] send: telemetry
+2022-11-29 23:38:33,570 INFO    Thread-17 :26204 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\ybria\Documents\GitHub\music-generation\Diffusion-LM-main\Diffusion-LM-main\improved-diffusion\wandb\run-20221129_233825-3e6o0tlp\files\output.log
+2022-11-29 23:38:37,607 INFO    Thread-17 :26204 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\ybria\Documents\GitHub\music-generation\Diffusion-LM-main\Diffusion-LM-main\improved-diffusion\wandb\run-20221129_233825-3e6o0tlp\files\output.log
+2022-11-29 23:38:56,817 INFO    Thread-17 :26204 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\ybria\Documents\GitHub\music-generation\Diffusion-LM-main\Diffusion-LM-main\improved-diffusion\wandb\run-20221129_233825-3e6o0tlp\files\config.yaml
+2022-11-29 23:39:25,720 DEBUG   SystemMonitor:26204 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2022-11-29 23:39:25,721 DEBUG   SenderThread:26204 [sender.py:send():303] send: stats
+2022-11-29 23:39:55,732 DEBUG   SenderThread:26204 [sender.py:send():303] send: stats
+2022-11-29 23:40:25,744 DEBUG   SenderThread:26204 [sender.py:send():303] send: stats
+2022-11-29 23:40:39,354 DEBUG   HandlerThread:26204 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-29 23:40:39,354 DEBUG   SenderThread:26204 [sender.py:send_request():317] send_request: stop_status
+2022-11-29 23:40:43,892 INFO    Thread-17 :26204 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\ybria\Documents\GitHub\music-generation\Diffusion-LM-main\Diffusion-LM-main\improved-diffusion\wandb\run-20221129_233825-3e6o0tlp\files\output.log
+2022-11-29 23:40:53,651 DEBUG   SenderThread:26204 [sender.py:send():303] send: exit
+2022-11-29 23:40:53,651 INFO    SenderThread:26204 [sender.py:send_exit():442] handling exit code: 1
+2022-11-29 23:40:53,652 INFO    SenderThread:26204 [sender.py:send_exit():444] handling runtime: 148
+2022-11-29 23:40:53,654 INFO    SenderThread:26204 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-29 23:40:53,655 INFO    SenderThread:26204 [sender.py:send_exit():450] send defer
+2022-11-29 23:40:53,656 DEBUG   HandlerThread:26204 [handler.py:handle_request():139] handle_request: defer
+2022-11-29 23:40:53,656 INFO    HandlerThread:26204 [handler.py:handle_request_defer():162] handle defer: 0
+2022-11-29 23:40:53,657 DEBUG   SenderThread:26204 [sender.py:send_request():317] send_request: defer
+2022-11-29 23:40:53,657 INFO    SenderThread:26204 [sender.py:send_request_defer():459] handle sender defer: 0
+2022-11-29 23:40:53,657 INFO    SenderThread:26204 [sender.py:transition_state():463] send defer: 1
+2022-11-29 23:40:53,658 DEBUG   HandlerThread:26204 [handler.py:handle_request():139] handle_request: defer
+2022-11-29 23:40:53,658 INFO    HandlerThread:26204 [handler.py:handle_request_defer():162] handle defer: 1
+2022-11-29 23:40:53,658 INFO    HandlerThread:26204 [system_monitor.py:finish():160] Stopping system monitor
+2022-11-29 23:40:53,660 DEBUG   SystemMonitor:26204 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2022-11-29 23:40:53,661 DEBUG   SystemMonitor:26204 [system_monitor.py:_start():141] Publishing last batch of metrics
+2022-11-29 23:40:53,663 INFO    HandlerThread:26204 [interfaces.py:finish():173] Joined cpu
+2022-11-29 23:40:53,663 INFO    HandlerThread:26204 [interfaces.py:finish():173] Joined disk
+2022-11-29 23:40:53,663 INFO    HandlerThread:26204 [interfaces.py:finish():173] Joined memory
+2022-11-29 23:40:53,664 INFO    HandlerThread:26204 [interfaces.py:finish():173] Joined network
+2022-11-29 23:40:53,664 DEBUG   SenderThread:26204 [sender.py:send_request():317] send_request: defer
+2022-11-29 23:40:53,664 INFO    SenderThread:26204 [sender.py:send_request_defer():459] handle sender defer: 1
+2022-11-29 23:40:53,664 INFO    SenderThread:26204 [sender.py:transition_state():463] send defer: 2
+2022-11-29 23:40:53,665 DEBUG   SenderThread:26204 [sender.py:send():303] send: stats
+2022-11-29 23:40:53,667 DEBUG   HandlerThread:26204 [handler.py:handle_request():139] handle_request: defer
+2022-11-29 23:40:53,667 INFO    HandlerThread:26204 [handler.py:handle_request_defer():162] handle defer: 2
+2022-11-29 23:40:53,667 DEBUG   SenderThread:26204 [sender.py:send_request():317] send_request: defer
+2022-11-29 23:40:53,667 INFO    SenderThread:26204 [sender.py:send_request_defer():459] handle sender defer: 2
+2022-11-29 23:40:53,668 INFO    SenderThread:26204 [sender.py:transition_state():463] send defer: 3
+2022-11-29 23:40:53,669 DEBUG   HandlerThread:26204 [handler.py:handle_request():139] handle_request: defer
+2022-11-29 23:40:53,669 INFO    HandlerThread:26204 [handler.py:handle_request_defer():162] handle defer: 3
+2022-11-29 23:40:53,670 DEBUG   SenderThread:26204 [sender.py:send_request():317] send_request: defer
+2022-11-29 23:40:53,670 INFO    SenderThread:26204 [sender.py:send_request_defer():459] handle sender defer: 3
+2022-11-29 23:40:53,670 INFO    SenderThread:26204 [sender.py:transition_state():463] send defer: 4
+2022-11-29 23:40:53,671 DEBUG   HandlerThread:26204 [handler.py:handle_request():139] handle_request: defer
+2022-11-29 23:40:53,672 INFO    HandlerThread:26204 [handler.py:handle_request_defer():162] handle defer: 4
+2022-11-29 23:40:53,672 DEBUG   SenderThread:26204 [sender.py:send():303] send: summary
+2022-11-29 23:40:53,674 INFO    SenderThread:26204 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-29 23:40:53,674 DEBUG   SenderThread:26204 [sender.py:send_request():317] send_request: defer
+2022-11-29 23:40:53,675 INFO    SenderThread:26204 [sender.py:send_request_defer():459] handle sender defer: 4
+2022-11-29 23:40:53,675 INFO    SenderThread:26204 [sender.py:transition_state():463] send defer: 5
+2022-11-29 23:40:53,675 DEBUG   HandlerThread:26204 [handler.py:handle_request():139] handle_request: defer
+2022-11-29 23:40:53,675 INFO    HandlerThread:26204 [handler.py:handle_request_defer():162] handle defer: 5
+2022-11-29 23:40:53,676 DEBUG   SenderThread:26204 [sender.py:send_request():317] send_request: defer
+2022-11-29 23:40:53,676 INFO    SenderThread:26204 [sender.py:send_request_defer():459] handle sender defer: 5
+2022-11-29 23:40:53,676 INFO    SenderThread:26204 [sender.py:transition_state():463] send defer: 6
+2022-11-29 23:40:53,676 DEBUG   HandlerThread:26204 [handler.py:handle_request():139] handle_request: defer
+2022-11-29 23:40:53,676 INFO    HandlerThread:26204 [handler.py:handle_request_defer():162] handle defer: 6
+2022-11-29 23:40:53,677 DEBUG   SenderThread:26204 [sender.py:send_request():317] send_request: defer
+2022-11-29 23:40:53,677 INFO    SenderThread:26204 [sender.py:send_request_defer():459] handle sender defer: 6
+2022-11-29 23:40:53,994 INFO    Thread-17 :26204 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\ybria\Documents\GitHub\music-generation\Diffusion-LM-main\Diffusion-LM-main\improved-diffusion\wandb\run-20221129_233825-3e6o0tlp\files\output.log
+2022-11-29 23:40:53,994 INFO    Thread-17 :26204 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\ybria\Documents\GitHub\music-generation\Diffusion-LM-main\Diffusion-LM-main\improved-diffusion\wandb\run-20221129_233825-3e6o0tlp\files\wandb-summary.json
+2022-11-29 23:40:54,680 DEBUG   HandlerThread:26204 [handler.py:handle_request():139] handle_request: poll_exit
+2022-11-29 23:40:55,648 INFO    SenderThread:26204 [sender.py:transition_state():463] send defer: 7
+2022-11-29 23:40:55,648 DEBUG   SenderThread:26204 [sender.py:send_request():317] send_request: poll_exit
+2022-11-29 23:40:55,648 DEBUG   HandlerThread:26204 [handler.py:handle_request():139] handle_request: defer
+2022-11-29 23:40:55,649 INFO    HandlerThread:26204 [handler.py:handle_request_defer():162] handle defer: 7
+2022-11-29 23:40:55,649 DEBUG   SenderThread:26204 [sender.py:send_request():317] send_request: defer
+2022-11-29 23:40:55,649 INFO    SenderThread:26204 [sender.py:send_request_defer():459] handle sender defer: 7
+2022-11-29 23:40:55,649 INFO    SenderThread:26204 [dir_watcher.py:finish():362] shutting down directory watcher
+2022-11-29 23:40:55,688 DEBUG   HandlerThread:26204 [handler.py:handle_request():139] handle_request: poll_exit
+2022-11-29 23:40:56,019 INFO    SenderThread:26204 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\ybria\Documents\GitHub\music-generation\Diffusion-LM-main\Diffusion-LM-main\improved-diffusion\wandb\run-20221129_233825-3e6o0tlp\files\output.log
+2022-11-29 23:40:56,019 INFO    SenderThread:26204 [dir_watcher.py:finish():392] scan: C:\Users\ybria\Documents\GitHub\music-generation\Diffusion-LM-main\Diffusion-LM-main\improved-diffusion\wandb\run-20221129_233825-3e6o0tlp\files
+2022-11-29 23:40:56,019 INFO    SenderThread:26204 [dir_watcher.py:finish():406] scan save: C:\Users\ybria\Documents\GitHub\music-generation\Diffusion-LM-main\Diffusion-LM-main\improved-diffusion\wandb\run-20221129_233825-3e6o0tlp\files\conda-environment.yaml conda-environment.yaml
+2022-11-29 23:40:56,020 INFO    SenderThread:26204 [dir_watcher.py:finish():406] scan save: C:\Users\ybria\Documents\GitHub\music-generation\Diffusion-LM-main\Diffusion-LM-main\improved-diffusion\wandb\run-20221129_233825-3e6o0tlp\files\config.yaml config.yaml
+2022-11-29 23:40:56,020 INFO    SenderThread:26204 [dir_watcher.py:finish():406] scan save: C:\Users\ybria\Documents\GitHub\music-generation\Diffusion-LM-main\Diffusion-LM-main\improved-diffusion\wandb\run-20221129_233825-3e6o0tlp\files\output.log output.log
+2022-11-29 23:40:56,023 INFO    SenderThread:26204 [dir_watcher.py:finish():406] scan save: C:\Users\ybria\Documents\GitHub\music-generation\Diffusion-LM-main\Diffusion-LM-main\improved-diffusion\wandb\run-20221129_233825-3e6o0tlp\files\requirements.txt requirements.txt
+2022-11-29 23:40:56,026 INFO    SenderThread:26204 [dir_watcher.py:finish():406] scan save: C:\Users\ybria\Documents\GitHub\music-generation\Diffusion-LM-main\Diffusion-LM-main\improved-diffusion\wandb\run-20221129_233825-3e6o0tlp\files\wandb-metadata.json wandb-metadata.json
+2022-11-29 23:40:56,026 INFO    SenderThread:26204 [dir_watcher.py:finish():406] scan save: C:\Users\ybria\Documents\GitHub\music-generation\Diffusion-LM-main\Diffusion-LM-main\improved-diffusion\wandb\run-20221129_233825-3e6o0tlp\files\wandb-summary.json wandb-summary.json
+2022-11-29 23:40:56,033 INFO    SenderThread:26204 [sender.py:transition_state():463] send defer: 8
+2022-11-29 23:40:56,033 DEBUG   SenderThread:26204 [sender.py:send_request():317] send_request: poll_exit
+2022-11-29 23:40:56,034 DEBUG   HandlerThread:26204 [handler.py:handle_request():139] handle_request: defer
+2022-11-29 23:40:56,034 INFO    HandlerThread:26204 [handler.py:handle_request_defer():162] handle defer: 8
+2022-11-29 23:40:56,035 DEBUG   SenderThread:26204 [sender.py:send_request():317] send_request: defer
+2022-11-29 23:40:56,035 INFO    SenderThread:26204 [sender.py:send_request_defer():459] handle sender defer: 8
+2022-11-29 23:40:56,035 INFO    SenderThread:26204 [file_pusher.py:finish():168] shutting down file pusher
+2022-11-29 23:40:56,488 INFO    Thread-26 :26204 [upload_job.py:push():143] Uploaded file C:\Users\ybria\Documents\GitHub\music-generation\Diffusion-LM-main\Diffusion-LM-main\improved-diffusion\wandb\run-20221129_233825-3e6o0tlp\files\requirements.txt
+2022-11-29 23:40:56,490 INFO    Thread-23 :26204 [upload_job.py:push():143] Uploaded file C:\Users\ybria\Documents\GitHub\music-generation\Diffusion-LM-main\Diffusion-LM-main\improved-diffusion\wandb\run-20221129_233825-3e6o0tlp\files\conda-environment.yaml
+2022-11-29 23:40:56,494 INFO    Thread-24 :26204 [upload_job.py:push():143] Uploaded file C:\Users\ybria\Documents\GitHub\music-generation\Diffusion-LM-main\Diffusion-LM-main\improved-diffusion\wandb\run-20221129_233825-3e6o0tlp\files\config.yaml
+2022-11-29 23:40:56,506 INFO    Thread-27 :26204 [upload_job.py:push():143] Uploaded file C:\Users\ybria\Documents\GitHub\music-generation\Diffusion-LM-main\Diffusion-LM-main\improved-diffusion\wandb\run-20221129_233825-3e6o0tlp\files\wandb-summary.json
+2022-11-29 23:40:56,508 INFO    Thread-25 :26204 [upload_job.py:push():143] Uploaded file C:\Users\ybria\Documents\GitHub\music-generation\Diffusion-LM-main\Diffusion-LM-main\improved-diffusion\wandb\run-20221129_233825-3e6o0tlp\files\output.log
+2022-11-29 23:40:56,703 DEBUG   HandlerThread:26204 [handler.py:handle_request():139] handle_request: poll_exit
+2022-11-29 23:40:56,704 DEBUG   SenderThread:26204 [sender.py:send_request():317] send_request: poll_exit
+2022-11-29 23:40:56,719 INFO    Thread-16 :26204 [sender.py:transition_state():463] send defer: 9
+2022-11-29 23:40:56,719 DEBUG   HandlerThread:26204 [handler.py:handle_request():139] handle_request: defer
+2022-11-29 23:40:56,719 INFO    HandlerThread:26204 [handler.py:handle_request_defer():162] handle defer: 9
+2022-11-29 23:40:56,719 DEBUG   SenderThread:26204 [sender.py:send_request():317] send_request: defer
+2022-11-29 23:40:56,720 INFO    SenderThread:26204 [sender.py:send_request_defer():459] handle sender defer: 9
+2022-11-29 23:40:56,720 INFO    SenderThread:26204 [file_pusher.py:join():173] waiting for file pusher
+2022-11-29 23:40:56,720 INFO    SenderThread:26204 [sender.py:transition_state():463] send defer: 10
+2022-11-29 23:40:56,720 DEBUG   HandlerThread:26204 [handler.py:handle_request():139] handle_request: defer
+2022-11-29 23:40:56,720 INFO    HandlerThread:26204 [handler.py:handle_request_defer():162] handle defer: 10
+2022-11-29 23:40:56,720 DEBUG   SenderThread:26204 [sender.py:send_request():317] send_request: defer
+2022-11-29 23:40:56,720 INFO    SenderThread:26204 [sender.py:send_request_defer():459] handle sender defer: 10
+2022-11-29 23:40:56,994 INFO    SenderThread:26204 [sender.py:transition_state():463] send defer: 11
+2022-11-29 23:40:56,995 DEBUG   HandlerThread:26204 [handler.py:handle_request():139] handle_request: defer
+2022-11-29 23:40:56,995 INFO    HandlerThread:26204 [handler.py:handle_request_defer():162] handle defer: 11
+2022-11-29 23:40:56,995 DEBUG   SenderThread:26204 [sender.py:send_request():317] send_request: defer
+2022-11-29 23:40:56,995 INFO    SenderThread:26204 [sender.py:send_request_defer():459] handle sender defer: 11
+2022-11-29 23:40:56,995 INFO    SenderThread:26204 [sender.py:transition_state():463] send defer: 12
+2022-11-29 23:40:56,995 DEBUG   HandlerThread:26204 [handler.py:handle_request():139] handle_request: defer
+2022-11-29 23:40:56,995 INFO    HandlerThread:26204 [handler.py:handle_request_defer():162] handle defer: 12
+2022-11-29 23:40:56,996 DEBUG   SenderThread:26204 [sender.py:send():303] send: final
+2022-11-29 23:40:56,996 DEBUG   SenderThread:26204 [sender.py:send():303] send: footer
+2022-11-29 23:40:56,996 DEBUG   SenderThread:26204 [sender.py:send_request():317] send_request: defer
+2022-11-29 23:40:56,996 INFO    SenderThread:26204 [sender.py:send_request_defer():459] handle sender defer: 12
+2022-11-29 23:40:56,996 DEBUG   HandlerThread:26204 [handler.py:handle_request():139] handle_request: poll_exit
+2022-11-29 23:40:56,996 DEBUG   SenderThread:26204 [sender.py:send_request():317] send_request: poll_exit
+2022-11-29 23:40:56,997 DEBUG   HandlerThread:26204 [handler.py:handle_request():139] handle_request: poll_exit
+2022-11-29 23:40:56,997 DEBUG   HandlerThread:26204 [handler.py:handle_request():139] handle_request: server_info
+2022-11-29 23:40:56,997 DEBUG   HandlerThread:26204 [handler.py:handle_request():139] handle_request: get_summary
+2022-11-29 23:40:56,997 DEBUG   HandlerThread:26204 [handler.py:handle_request():139] handle_request: sampled_history
+2022-11-29 23:40:56,998 DEBUG   SenderThread:26204 [sender.py:send_request():317] send_request: poll_exit
+2022-11-29 23:40:56,998 DEBUG   SenderThread:26204 [sender.py:send_request():317] send_request: server_info
+2022-11-29 23:40:57,201 INFO    MainThread:26204 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2022-11-29 23:40:57,201 INFO    MainThread:26204 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
+2022-11-29 23:40:57,201 INFO    MainThread:26204 [wandb_run.py:_footer_sync_info():3333] logging synced files
+2022-11-29 23:40:57,207 DEBUG   HandlerThread:26204 [handler.py:handle_request():139] handle_request: shutdown
+2022-11-29 23:40:57,207 INFO    HandlerThread:26204 [handler.py:finish():814] shutting down handler
+2022-11-29 23:40:57,998 INFO    WriterThread:26204 [datastore.py:close():279] close: C:\Users\ybria\Documents\GitHub\music-generation\Diffusion-LM-main\Diffusion-LM-main\improved-diffusion\wandb\run-20221129_233825-3e6o0tlp\run-3e6o0tlp.wandb
+2022-11-29 23:40:58,202 INFO    SenderThread:26204 [sender.py:finish():1331] shutting down sender
+2022-11-29 23:40:58,202 INFO    SenderThread:26204 [file_pusher.py:finish():168] shutting down file pusher
+2022-11-29 23:40:58,202 INFO    SenderThread:26204 [file_pusher.py:join():173] waiting for file pusher
+2022-11-29 23:40:58,256 INFO    MainThread:26204 [internal.py:handle_exit():78] Internal process exited

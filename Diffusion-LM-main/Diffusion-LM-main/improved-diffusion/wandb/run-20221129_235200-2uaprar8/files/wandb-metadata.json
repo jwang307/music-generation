@@ -1,0 +1,93 @@
+{
+    "os": "Windows-10-10.0.22000-SP0",
+    "python": "3.9.15",
+    "heartbeatAt": "2022-11-30T07:52:01.057424",
+    "startedAt": "2022-11-30T07:52:00.410155",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--checkpoint_path",
+        "diffusion_models/diff_e2e-tgt_block_rand16_transformer_lr0.0001_0.0_2000_sqrt_Lsimple_h128_s2_d0.1_sd102_xstart_e2e",
+        "--model_arch",
+        "transformer",
+        "--modality",
+        "e2e-tgt",
+        "--save_interval",
+        "50000",
+        "--lr",
+        "0.0001",
+        "--batch_size",
+        "64",
+        "--diffusion_steps",
+        "2000",
+        "--noise_schedule",
+        "sqrt",
+        "--use_kl",
+        "False",
+        "--learn_sigma",
+        "False",
+        "--image_size",
+        "8",
+        "--num_channels",
+        "128",
+        "--seed",
+        "102",
+        "--dropout",
+        "0.1",
+        "--in_channel",
+        "16",
+        "--out_channel",
+        "16",
+        "--padding_mode",
+        "block",
+        "--experiment",
+        "random",
+        "--lr_anneal_steps",
+        "200000",
+        "--weight_decay",
+        "0.0",
+        "--num_res_blocks",
+        "2",
+        "--predict_xstart",
+        "True",
+        "--training_mode",
+        "e2e",
+        "--vocab_size",
+        "821",
+        "--e2e_train",
+        "../datasets/e2e_data"
+    ],
+    "state": "running",
+    "program": "C:\\Users\\ybria\\Documents\\GitHub\\music-generation\\Diffusion-LM-main\\Diffusion-LM-main\\improved-diffusion\\scripts\\train.py",
+    "codePath": "Diffusion-LM-main\\Diffusion-LM-main\\improved-diffusion\\scripts\\train.py",
+    "git": {
+        "remote": "https://github.com/jwang307/music-generation.git",
+        "commit": "d5113640a95386bb9f281d9a53f0d9ad5b6ae96d"
+    },
+    "email": "47718731+BriShoe@users.noreply.github.com",
+    "root": "C:/Users/ybria/Documents/GitHub/music-generation",
+    "host": "Brian-HP-Spectre-X360",
+    "username": "ybria",
+    "executable": "C:\\Users\\ybria\\anaconda3\\envs\\MusicGeneration\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 1792.0,
+        "min": 0.0,
+        "max": 1992.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1792.0,
+            "min": 0.0,
+            "max": 1992.0
+        }
+    ],
+    "disk": {
+        "total": 464.72753524780273,
+        "used": 255.05630111694336
+    },
+    "memory": {
+        "total": 15.849002838134766
+    }
+}
